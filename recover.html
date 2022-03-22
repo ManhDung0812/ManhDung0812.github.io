@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home-box">
+        <h1>Instruction: Trả lời câu hỏi sau để lấy mật khẩu:3</h1>
+        <div class="question-text" >Ai trong ảnh mà xinh vậy =))</div>
+        <div class="text-center" style="float: right;"><img src="2.jpg" width="400"  height="500"></div>
+        <div class="option-container">
+            <div class="option">
+                <input type="checkbox" name="q1" id="A" value="a"><label>a. NTQA</label></div>
+            <div class="option">
+                <input type="checkbox" name="q1" id="B" value="b"><label>b. Bà hoàng săn GA, thiếu nữ tóc mây,...</label></div>
+            <div class="option">
+                <input type="checkbox" name="q1" id="C" value="c"><label>c. <img src="3.jpg" width="250" height="200"></label></div>
+            <div class="option">
+                <input type="checkbox" name="q1" id="D" value="d"><label>d. Ai đó đặc biệt có ngày sinh vào hôm nay</label></div>
+        </div>
+        <input type="submit" value="Xem đáp án" onclick="check()" id="submit">
+    </div>
+    <script>
+        function check(){
+            if (document.getElementById('A').checked){
+                alert("Đúng rồi nè :3 mật khẩu là biệt danh chủ web đặt cho bạn đó ☻     Quay lại trang trước để đăng nhập nhé ☺ xem hết đi rồi nói gì nói sau");
+            }
+            else if (document.getElementById('A').checked){
+                alert("Đúng rồi nè :3 mật khẩu là biệt danh chủ web đặt cho bạn đó ☻     Quay lại trang trước để đăng nhập nhé ☺ xem hết đi rồi nói gì nói sau");
+            }
+            else if (document.getElementById('A').checked){
+                alert("Đúng rồi nè :3 mật khẩu là biệt danh chủ web đặt cho bạn đó ☻     Quay lại trang trước để đăng nhập nhé ☺ xem hết đi rồi nói gì nói sau");
+            }
+            else if (document.getElementById('A').checked){
+                alert("Đúng rồi nè :3 mật khẩu là biệt danh chủ web đặt cho bạn đó ☻     Quay lại trang trước để đăng nhập nhé ☺ xem hết đi rồi nói gì nói sau");
+            }
+            else{
+                alert("Chọn ít nhất 1 cái đi pồ")
+            }
+            
+
+        }
+    </script>
+    <audio src="1.mp3" autoplay="autoplay" loop="loop"></audio>
+</body>
+</html>

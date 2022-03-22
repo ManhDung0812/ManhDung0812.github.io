@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #FFDAB9;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.home-box{
+    max-width: 1200px;
+    background-color: #fcb9ff;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.home-box h1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 25px;
+    text-align: center;
+
+}
+.quiz-box{
+    max-width: 800px;
+    background-color: #fcb9ff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.home-box .question-text{
+    padding: 5px;
+    font-size: 20px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.text-center{
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.home-box .option-container .option{
+    padding: 15px;
+    font-size: 16px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+div>input{
+    margin-left: 20px;
+    margin: 15px;
+}
+#submit{
+    margin: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #fff9b9;
+    align-self: center;
+    width: 40%;
+    border: none;
+}
+#submit:hover{
+    color: pink;
+    background-color: white;
+}
